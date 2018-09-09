@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>Aditi's Awesome Website</title>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+    </head>
+    
+    
+<style>
+    .flexbox{
+    display:flex; 
+    position: relative; 
+    max-width: 2000px; 
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;   
+    display: block; 
+    margin: auto; 
+    padding-top: 25px; 
+    width: 100%; 
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 3em;
+    letter-spacing: 8px; 
+    color: #677d7d; 
+    mix-blend-mode: difference;
+    pointer-events:none;
+    position: fixed; 
+    }
+
+.contentone {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 49% auto 49%;
+    justify-content:center;
+    max-width: 100%;  
+    height: 220px; 
+    grid-row-gap: 40px;
+    grid-column-gap: 10px; 
+    padding: 40px 15px 20px 15px; 
+    background-color: #eaecec;
+}
+
+.partone {
+    grid-row: 1; 
+    grid-column: 1; 
+    display: block; 
+    justify-content: center;
+    text-align:center; 
+    padding: 30px;
+    height: 100%; 
+    font-family: 'dosis', sans-serif;
+    font-size: 1.3em;
+    border-radius: 100px 20px 20px 50px;
+    background-color: dodgerblue;   
+}
+
+.parttwo {
+    grid-row:1;
+    grid-column: 3; 
+    background-color: crimson; 
+    width: 40%px; 
+    height: 100%; 
+    border-radius: 20px 100px 20px 20px;
+    padding: 30px; 
+    font-family: 'dosis', sans-serif;
+    font-size: 1.3em; 
+    display:block;   
+}
+
+.contenttwo {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: 49% auto 49%;
+    justify-content:center;
+    max-width: 100%;  
+    height: 100%;
+    grid-row-gap: 40px;
+    grid-column-gap: 10px; 
+    padding: 40px 15px 20px 15px; 
+    background-color: forestgreen;
+}
+     
+    </style>
+    
+
+    <body>
+        
+        <h1>Indecisive</h1>
+        
+     <div class="contentone">
+         <p class="partone">Yes</p>
+         <p class="parttwo">NO</p>
+        </div>
+         
+    <div class="contenttwo">
+        <p class="partone" style= "background-color: orange;">
+        NO
+            </p>
+        
+        <p class="parttwo" style= "border-radius: 20px 170px 100px 20px; background-color: darkorchid;"> YES
+            </p>
+    
+        <p class="partone" style="grid-row:2;">
+            YES
+        </p>
+        
+        <p class="parttwo" style="grid-row:2; background-color: orchid">
+            Maybe
+        </p>
+        
+        <p class="partone" style="grid-row:3; background-color: aquamarine">
+         Don't Know
+        </p>
+        
+        <p class="parttwo" style="grid-row:4; text-align:center; border-radius: 20px 100px 80px 20px; background: #8dabab;">
+        Why??
+        </p>
+        
+        <p class="partone" style="grid-row:5; border-radius: 50px 20px 20px 150px; background-color: firebrick;">
+        No, no, no
+        </p>
+        
+        <p class="partone" style="grid-row:6">
+        Ok...</p>
+        <p class="parttwo" style="grid-row:6; border-radius: 20px 40px 90px 20px; background-color: deeppink;">
+          Sure. Why not. 
+        </p>
+        </div>
+
+    </body>
+
+</html>

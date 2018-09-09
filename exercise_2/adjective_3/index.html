@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>Aditi's Awesome Website</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Pacifico" rel="stylesheet">
+    </head>
+    
+    <style>
+        
+    .grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 20% 80%;
+        justify-content:center;
+        max-width: 100%;  
+        height: 100%;
+        background-color: white;
+        }
+        
+    body {
+        background-image: url(bendy_straw.png);
+    }
+    
+    h1 {
+        grid-row: 1; 
+        grid-column: 1;
+        font-family: 'Pacifico', cursive;
+        font-size: 50px;  
+        letter-spacing: 1px; 
+        text-align: left;
+        padding: 20px 0px 0px 40px; 
+        background-color: khaki; 
+        color: darkorange; 
+    }
+    
+    h1:hover{
+          color: darkmagenta;
+        background-color: mediumpurple; 
+        }
+    
+    .one {
+        grid-row: 1; 
+        grid-column: 2;
+        height: 100vh; 
+    }
+    
+    .two{
+        width: 100%;
+        height: 100%; 
+        }
+     
+    </style>
+    
+
+    <body>
+        <div class=grid>
+        <img class=one src= "bendy_straw.png" alt="straw">
+        <h1>Be as flexible as your bendy straw</h1> 
+        </div>
+        
+        <img class=two src= "bendy_2.png" alt="straw">
+        
+    </body>
+
+</html>
+    
