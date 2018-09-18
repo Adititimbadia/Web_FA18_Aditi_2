@@ -1,0 +1,98 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+body {
+    background: #f7f9ff;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vw;
+    line-height: 1.6em;
+    color: midnightblue;
+    text-align: center; 
+    padding: 10px 6% 10px 6%; 
+    letter-spacing: 2px; 
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    line-height: 2vh;
+    color: slateblue;
+    text-align: center; 
+    padding: 10px 6% 10px 6%; 
+    letter-spacing: 2px; 
+}
+
+.blue { 
+    width: 100vw;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    
+}
+
+p {
+    padding: 10px 6% 0 6%; 
+    font-family: 'dosis', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.4em;
+}
+
+.red {
+    width: 40%; 
+    padding: 10px 15px 10px 6%; 
+    float: left; 
+}
+
+.black {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 88%; 
+    padding-top: 10px; 
+}
+
+
+
+@media screen and (max-width: 800px){
+    
+    h2{
+       font-size: 0.9em;  
+}
+    
+}
+
+@media screen and (max-width: 500px){
+    .red{
+        width: 90vw; ; 
+        padding-left: 6%; 
+        padding-right: 6%; 
+    }
+    h1{
+        font-size: 1.7em; 
+    }
+    .blue{
+        width: 120%; 
+        
+    }
+}
