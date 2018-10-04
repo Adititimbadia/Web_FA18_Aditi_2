@@ -1,0 +1,106 @@
+body {
+    margin: 0px; 
+    height: 100vh; 
+    overflow: hidden;
+    background: #faf8f8; 
+    width:100%; 
+}
+
+#screensaver{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: none; 
+    transition: .7s ease;
+    background-color: transparent;
+    z-index: 100; 
+    background-image: url(imgs/slide1.jpg); 
+}
+
+#container {
+    margin: 0;
+}
+
+#about{
+    position: absolute;
+}
+
+#title {
+    width: 50%;  
+    height: 150px; 
+    margin: 30px 0 0 80px; 
+    border: #118fa0 solid 1px; 
+}
+
+p {
+    margin: 20px; 
+    color: #848586;
+    font-size: 35px; 
+    font-family: 'dosis', sans-serif;
+    width: 75vw;
+    z-index: 0; 
+    position: relative; 
+    right:  43%;
+    top: 10px; 
+    letter-spacing: 3.5px; 
+    text-align: center; 
+}
+
+.header { 
+    font-size: 25px; 
+    color: #7bcab9;
+}
+
+.lineone {
+    color: #118fa0; 
+    font-size: 15px;
+    text-align: center; 
+    right:  13.5%; 
+}
+
+.description {
+    margin: 20px; 
+    left: 3%;  
+    color: #848586;
+    font-size: 15px; 
+    line-height: 25px; 
+    font-family: 'dosis', sans-serif;
+    width: 50vw;
+    z-index: 0; 
+    text-align: left; 
+    letter-spacing: 1px; 
+    padding-top: 10px; 
+}
+
+#date {
+    font-size: 15px; 
+    padding: 50px 0 0 40px; 
+    letter-spacing: 1px;
+    font-family: 'dosis', sans-serif;
+    color: #d2d4d4; 
+}
+
+
+img {
+    height: 100vh; 
+    position: relative;   
+    float: right; 
+    padding-right: 40px; 
+}
+
+img:hover {
+    display: block; 
+}
+
+#ticker {
+    position: absolute; 
+    bottom: 20px; 
+    margin: 20px; 
+    z-index: 100;
+    font-size: 20px; 
+    font-family: 'dosis', sans-serif;
+    color: #d2d4d4; 
+    mix-blend-mode: difference; 
+}
