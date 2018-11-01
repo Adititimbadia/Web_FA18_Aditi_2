@@ -97,10 +97,10 @@ function draw() {
 //    rect(25, 550, 70, 25); 
 }
 
-//function mousePressed() {
-////    bgColor = background(Math.floor(Math.random()*220), Math.floor(Math.random()*160), Math.floor(Math.random()*225));
-//    change(); 
-//}
+function mousePressed() {
+  bgColor = background(Math.floor(Math.random()*220), Math.floor(Math.random()*160), Math.floor(Math.random()*225));
+    change(); 
+}
 
 function change(){
      bgColor = background(Math.floor(Math.random()*220), Math.floor(Math.random()*160), Math.floor(Math.random()*225));
